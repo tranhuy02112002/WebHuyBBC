@@ -1,0 +1,378 @@
+.contain{
+    width: 2609px;
+    height: auto;
+    margin: auto;
+}
+
+.header-main{
+    min-height: 700px;
+    width: 100%;
+    display: inline-block;
+}
+.logo1{
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    min-height: 350px;
+}
+.menu{
+    height:100px;
+    display: flex;
+    justify-content: center;
+}
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider01{
+    display: block;
+}
+.menu::after{
+    background-color: rgba(240, 239, 240, 0.79);
+    position: absolute;
+    height: 6px;
+    width: 70%;
+    display:flex;
+    justify-content: center;
+    content: "";
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li {
+    display: inline-table;
+    border-right:5px solid rgba(240, 239, 240, 0.79) ;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    line-height: 100px;
+    color: rgb(72, 67, 67);
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    padding: 0 90px 0 90px;
+    display:block;
+}
+.sub-menu{
+    width: 100%;
+    position: absolute;
+    border-left: 5px solid rgba(240, 239, 240, 0.79);
+    padding: 0;
+}
+.menu li ul li {
+    display:none;
+}
+
+.menu li:hover ul li{
+    display: block;
+    background-color: rgb(122, 128, 128);
+    border-bottom: 2px solid rgba(240, 239, 240, 0.79) ;
+}
+.menu li a::after{
+    background-color: rgb(224, 172, 93);
+    position: absolute;
+    height: 3px;
+    width: 0;
+    left: 0;
+    display: block;
+    content: "";
+}
+.menu li a:hover::after{
+    width: 100%;
+    transition: width 0.5s linear ;
+}
+.menu li a:hover{
+    color: rgb(224, 172, 93);
+}
+.box1{
+    width: 30%;
+    height: 150px;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 20px;
+} 
+.box {
+    height: 70px;
+    background-color: rgb(195, 204, 204);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 0px;
+    transition: 0.8s ease;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+   
+input::placeholder {
+    color: rgb(48, 46, 44);
+    text-decoration: none;
+}
+   
+.box:hover input {
+    width: 200px;
+    margin: 0 20px;
+}
+   
+input:focus {
+    width: 200px;
+    margin: 0 20px;
+}
+.main{
+    height: auto;
+    width: 100%;
+    background-image: url('./IMG/giay-dan-tuong-the-eight-2140-1-giay-dan-tuong-hoa-van-chim-hoa-van-nhe-trang-kem-839296.jpg');
+}
+.slidershow{
+    margin: 30px 100px;
+    display: flex;
+    height: 1500px;
+}
+.Read1{
+    width: 30%;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 68px;
+    font-weight: 700;
+    background-color: aliceblue;
+    opacity: 60%;
+}
+.Read1:hover{
+    background-color: rgb(189, 83, 83);
+    opacity: 80%;
+}
+.Read{
+    width: 50%;
+    margin: auto;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 45px;
+    font-weight: 700;
+    background-color: aliceblue;
+    opacity: 60%;
+}
+.Read:hover{
+    background-color: rgb(189, 83, 83);
+    opacity: 80%;
+}
+.slider {
+    flex: 2;
+    border: rgba(255, 255, 255, 0.685) 5px solid;
+    display: flex;
+}
+.slider {
+    display: flex;
+    background-image: url('/IMG/three-8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: rgba(255, 255, 255, 0.685) 5px solid;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+.slider:hover{
+    transform:scale(1.017);
+    opacity: 0.8;
+}
+.READ2{
+    width: 100%;
+    height: 100%;
+}
+.slider10{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.slider11{
+    background-image: url('/IMG/nguyen-tac-xay-dung-thuc-don-nau-an-gia-dinh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex: 1;
+    border: rgba(255, 255, 255, 0.685) 5px solid;
+    transition: all 0.3s ease-in-out;
+}
+.slider11:hover{
+    transform:scale(1.017);
+    opacity: 0.8;
+}
+.slider12{
+    background-image: url('/IMG/68fbcffc60d4e73a4c62dac7bfbb3995.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    display: flex;
+    border: rgba(255, 255, 255, 0.685) 5px solid;
+    transition: all 0.3s ease-in-out;
+}
+.slider12:hover{
+    transform:scale(1.017);
+    opacity: 0.8;
+}
+.slogan{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.slogan-text1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(224, 172, 93);
+}
+.slogan-text2{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(38, 34, 29, 0.888);;
+    margin-bottom: 70px;
+
+}
+.slogan-text3{
+    width: 70%;
+    height: 3px;
+    margin: auto;
+    background-color: rgba(223, 226, 230, 0.938);
+}
+.Text{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(224, 172, 93);
+    background-color:  rgb(21, 19, 19);
+}
+
+.post{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+}
+.post1{
+    background-image: url('/IMG/346111075_611628697563929_1093757355739147133_n.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    margin: 20px;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+.post1:hover{
+    transform:scale(1.017);
+    opacity: 0.8;
+}
+.post2{
+    background-image: url('/IMG/348355213_1438008157036295_5403033160677209878_n.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    margin: 20px;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+.post2:hover{
+    transform:scale(1.017);
+    opacity: 0.8;
+}
+.post3{
+    background-image: url('/IMG/preset-lightroom-tone-den-xam-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    margin: 20px;
+    display:flex;
+    transition: all 0.3s ease-in-out;
+}
+.post3:hover{
+    transform:scale(1.017);
+    opacity: 0.8;
+}
+.footer{
+    height: auto;
+    background-color: rgb(21, 19, 19);
+    display: flex;
+
+}
+.About{
+    color: aliceblue;
+    flex: 2.2;
+    display: flex;
+    flex-direction: column;
+}
+.About-text{
+    margin: 48px 150px;
+    font-size: 30px;
+}
+.About-text1{
+    margin-left: 150px;
+    font-size: 28px;
+    width: 60%;
+    line-height: 45px;
+}
+.Quick-link{
+    flex: 1.5;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 0;
+}
+.list li{
+    display: block;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.list li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.list li a:hover{
+    color: rgb(224, 172, 93);
+}
+.follow{
+    flex: 2.2;
+    margin-top: 48px;
+    padding: 0;
+    font-size: 30px;
+}
+.contact{
+    display: flex;
+    width: 70%;
+}
+.contact li{
+    display: block;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.contact li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.contact li a:hover{
+    color: rgb(224, 172, 93);
+}

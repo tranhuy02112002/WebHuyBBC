@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet"href="about.css">
+    <link rel="stylesheet"href="cake.css">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.css">
+    <title>Blog Channel</title>
+</head>
+<body>
+    <div class="contain">
+        <div class="header-main">
+            <div class="logo1">
+                <div class="logo">
+                    <img src="./IMG/thiet-ke-logo-an-vat-1-1.jpg">
+                </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="indext.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-user"></i> About</a></li>
+                    <li><a href=""><i class="fa-solid fa-cake-candles"></i> Sản phẩm</a>
+                        <ul class="sub-menu">
+                            <li><a href="cake.html">Bánh ngọt</a></li>
+                            <li><a href="">Nước uống</a></li>
+                            <li><a href="product.html">Công thức</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</a></li>
+                    <li><a href="log.html"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
+            </div>
+            <div class="box1">
+                <div class="box">
+                    <input type="text" placeholder="Search here">
+                    <a><i class="fa-solid fa-magnifying-glass" style="font-size: 30px"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="main1">
+            <div class="main-about1">
+                <div class="about-text">
+                    <p class="Texts">Quản lí sản phẩm</p>
+                    <ul class="list-text">
+                        <li><a href="set.html">Thêm sản phẩm</a></li>
+                        <li><a href="fix.html">Sửa và xoá sản phẩm</a></li>
+                    </ul>
+                </div>
+                <div class="all-list">
+                    <a href="/list1.html">
+                        <div class="list10">
+                            <div class="list1">
+                                <div class="list1-img"></div>
+                                <div class="list-content">
+                                    <div class="Name">Bánh bông lan trứng muối</div>
+                                    <div class="Date">80.000VND</div>
+                                    <div class="IFM"> Bánh có các lớp bơ chảy mềm mại, cực kì ngon miệng, ngoài ra một số tiệm bánh còn làm thêm phần nhân phô mai quyến rũ. Nếu chưa từng thử món này, bạn nhất định phải ăn một lần cho biết nhé!</div>
+                                    <div class="More">ADD TO THE CART</div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="main-about2">
+                <div class="about2-img">
+                </div>
+                <div class="something"><p>"I love to cook, create delicious recipes with beautiful photos. I also share my life stories and my relationship with food."</p></div>
+                <div class="something1"></div>
+                <div class="newletter">
+                    <div id="text">NEWSLETTER</div>
+                    <div id="text1">Subscribe my newsletter for latest recipes and cooking ideas. Let's stay updated!</div>
+                    <div id="give">
+                        <form action="CommentController" method="post">
+                            <div id="from">
+                                <input type="text" id="fname" name="content" value="Comment..."><br><br>
+                                <input type="text" id="lname" name="username" value="Email..."><br><br>
+                            </div>
+                            <div class="DK">  <a href="#" class="button-link" onclick="Comment()">SUBMIT</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <Script type="text/javascript">
+            function Comment(){
+                var xhttp;
+            var username = document.main-about2.from.username.value;
+            var content = document.main-about2.from.content.value;
+            if(window.XMLHttpRequest)
+            {
+                xhttp = new XMLHttpRequest();
+            }
+            else
+            {
+                xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            }
+        </Script>
+
+
+
+    <div class="footer"> 
+        <div class="About">
+            <div class="About-text">ABOUT ME</div>
+           <div class="About-text1">NTK Blog là chuyên trang chia sẻ các kiến thức, trải nghiệm về cuộc sống của tác giả nhằm đem đến cho người xem những kiến thức bổ ích và điều thú vị xoay quanh cảm nhận và góc nhìn của tác giả.</div>
+        </div>
+        <div class="Quick-link">
+            <div class="list">
+                <ul>
+                    <li>USEFUL LINKS</li>
+                    <li><a href="indext.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-user"></i> About</a></li>
+                    <li><a href="product.html"><i class="fa-solid fa-cake-candles"></i> Sản Phẩm</a></li>
+                    <li><a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="follow">
+            <div class="contact">
+                <u>
+                    <li><a href="indext.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-user"></i> About</a></li>
+                    <li><a href="product.html"><i class="fa-solid fa-cake-candles"></i> Sản phẩm</a></li>
+                    <li><a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</a></li>
+                    <li><a href="log.html"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a></li>
+                </u>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>

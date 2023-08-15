@@ -1,0 +1,317 @@
+.main1{
+    width: 100%;
+    height: 2000px;
+    margin: auto;
+    display: flex;
+    background-image: url('/IMG/giay-dan-tuong-the-eight-2140-1-giay-dan-tuong-hoa-van-chim-hoa-van-nhe-trang-kem-839296.jpg');
+}
+.main-about1{
+    flex: 1.8;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.about-text{
+    font-size: 50px;
+    color: #fffffffc;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 270px;
+    opacity: 95%;
+    height: 330px;
+    display: block;
+}
+.Texts{
+    height: auto;
+    background-color: rgb(197, 69, 69);
+    padding: 20px;
+    position: relative;
+}
+.list-text{
+    position: relative;
+    top:-48px;
+    right: 42px;
+}
+.about-text ul li{
+    display: none;
+    background-color:rgb(197, 69, 69);
+    border: 2px snow solid;
+    padding: 20px;
+    font-size: 45px;
+}
+.about-text:hover ul li{
+    display: block;
+    width: 100%;
+}
+.about-text ul li:hover{
+    background-color: rgb(158, 160, 162);
+}
+.all-list{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.list10{
+    width: 100%;
+    height: 650px;
+    margin-bottom: 50px;
+    border-bottom: rgb(224, 172, 93) solid 2px;
+}
+.list1{
+    width: 100%;
+    height: 600px;
+    display:flex;
+}
+.list1-img{ 
+    background-image: url('/IMG/350715362_1264100467582270_920761575223603513_n.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1.2;
+    transition: all 0.3s ease-in-out;
+}
+.list1-img:hover{
+    transform:scale(1.02);
+    opacity: 0.8;
+}
+.list2-img{ 
+    background-image: url('/IMG/346110885_165796576442635_2221500937955297610_n.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1.2;
+    transition: all 0.3s ease-in-out;
+}
+.list2-img:hover{
+    transform:scale(1.02);
+    opacity: 0.8;
+}
+.list3-img{ 
+    background-image: url('/IMG/346153411_918280362801394_2225490482987171606_n.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1.2;
+    transition: all 0.3s ease-in-out;
+}
+.list3-img:hover{
+    transform:scale(1.02);
+    opacity: 0.8;
+}
+.list4-img{ 
+    background-image: url('/IMG/348356860_609644947774584_7114468997449204311_n.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1.2;
+    transition: all 0.3s ease-in-out;
+}
+.list4-img:hover{
+    transform:scale(1.02);
+    opacity: 0.8;
+}
+.list5-img{ 
+    background-image: url('/IMG/348383127_1340332259848621_2781029659959684670_n.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1.2;
+    transition: all 0.3s ease-in-out;
+}
+.list5-img:hover{
+    transform:scale(1.02);
+    opacity: 0.8;
+}
+.list-content{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.Name{
+    font-size: 55px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-bottom: 39px;
+    color: rgb(197, 69, 69);
+}
+.Date{
+    font-size:35px ;
+    margin-left: 50px;
+    padding: 15px;
+    background-color: rgb(17, 178, 33);
+    width: 20%;
+    text-align: center;
+}
+.IFM{
+    margin-left: 50px;
+    margin-top: 39px;
+    font-size:40px ;
+    line-height: 60px;
+}
+.More{
+    width: 33%;
+    text-align: center;
+    margin-top: 39px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgb(190, 78, 78);
+    padding: 15px;
+}
+.More:hover{
+    opacity: 0.8;
+}
+.main-about2{
+    flex: 1;
+    height: 1000px;
+    margin: 100px 0px 0 0;
+}
+.footer{
+    height: auto;
+    background-color: rgb(21, 19, 19);
+    display: flex;
+
+}
+.About{
+    color: aliceblue;
+    flex: 2.2;
+    display: flex;
+    flex-direction: column;
+}
+.About-text{
+    margin: 48px 150px;
+    font-size: 30px;
+}
+.About-text1{
+    margin-left: 150px;
+    font-size: 28px;
+    width: 60%;
+    line-height: 45px;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+  }
+  .login__container {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h5{
+    font-size: 38px;
+    margin: auto;
+    margin-top:40px;
+    margin-bottom: 40px;
+  }
+  .login__container h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    text-align: center;
+  }
+  .login__container form {
+    display: flex;
+    flex-direction: column;
+  }
+  .login__container form label {
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+  .login__container form input {
+    padding: 20px;
+    border: 1px solid #100f0f;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: #333;
+    width: 800px;
+    margin: auto;
+  }
+  .login__container form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    font-size: 33px;
+    cursor: pointer;
+    width: 20%;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .login__container form button:hover {
+    background: #bf6363;
+  }
+  .login__container form a {
+    text-align: center;
+    font-size: 38px;
+    text-decoration: none;
+    color: #333;
+  }
+  .login__container form a:hover {
+    color: #555;
+  }
+  .login__registerButton {
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+    width: 18%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 35px;
+    cursor: pointer;
+    display: block;
+    background-color:#333 ;
+    color:#fff;
+  }
+  .login__registerButton:hover{
+    background: #bf6363;
+  }
+.Quick-link{
+    flex: 1.5;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 0;
+}
+.list li{
+    display: block;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.list li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.list li a:hover{
+    color: rgb(224, 172, 93);
+}
+.follow{
+    flex: 2.2;
+    margin-top: 48px;
+    padding: 0;
+    font-size: 30px;
+}
+.contact{
+    display: flex;
+    width: 70%;
+}
+.contact li{
+    display: block;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.contact li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.contact li a:hover{
+    color: rgb(224, 172, 93);
+}

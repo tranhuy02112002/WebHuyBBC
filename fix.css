@@ -1,0 +1,125 @@
+.main1{
+    width: 100%;
+    height: 2000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/IMG/giay-dan-tuong-the-eight-2140-1-giay-dan-tuong-hoa-van-chim-hoa-van-nhe-trang-kem-839296.jpg');
+}
+.main-list{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-weight:600;
+    line-height: 100px;
+    border-bottom:1px rgb(177, 175, 171) solid ;
+}
+.list-1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    font-size: 35px;
+    font-weight:600;
+    line-height: 300px;
+    border-bottom:1px rgb(177, 175, 171) solid ;
+    padding: 15px 0;
+}
+#list-1.img{
+    background-image: url("./IMG/350715362_1264100467582270_920761575223603513_n.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.list-1:hover{
+    background-color: rgb(196, 205, 205);
+}
+#list-1.action{
+    display: flex;
+    justify-content: center;
+}
+.fixx{
+    margin: 0 20px ;
+}
+.delete{
+    margin: 0 20px ;
+}
+.id{
+    flex: 1;
+}
+.name{
+    flex: 3.5;
+}
+.img{
+    flex: 2;
+}
+.price{
+    flex:2
+}
+.action{
+    flex: 2.5;
+}
+.footer{
+    height: auto;
+    background-color: rgb(21, 19, 19);
+    display: flex;
+
+}
+.About{
+    color: aliceblue;
+    flex: 2.2;
+    display: flex;
+    flex-direction: column;
+}
+.About-text{
+    margin: 48px 150px;
+    font-size: 30px;
+}
+.About-text1{
+    margin-left: 150px;
+    font-size: 28px;
+    width: 60%;
+    line-height: 45px;
+}
+.Quick-link{
+    flex: 1.5;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 0;
+}
+.list li{
+    display: block;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.list li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.list li a:hover{
+    color: rgb(224, 172, 93);
+}
+.follow{
+    flex: 2.2;
+    margin-top: 48px;
+    padding: 0;
+    font-size: 30px;
+}
+.contact{
+    display: flex;
+    width: 70%;
+}
+.contact li{
+    display: block;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+.contact li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.contact li a:hover{
+    color: rgb(224, 172, 93);
+}
